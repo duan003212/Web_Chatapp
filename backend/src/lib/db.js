@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const MONGODB_URI = process.env.MONGODB_URI || "mongodb://root:hrg42dp5@cloud.sealos.io:32171/?directConnection=true";
+const MONGODB_URI = process.env.MONGODB_URI || "";
 export const PORT = process.env.PORT || 5001;
 
 export const connectDB = async () => {
